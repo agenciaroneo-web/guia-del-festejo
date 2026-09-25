@@ -220,6 +220,12 @@ body {
   .precio-grid { grid-template-columns: 1fr; }
   .deco-grid { grid-template-columns: 1fr; }
 }
+
+.precio-valor.consultar {
+  font-size: 12px !important;
+  color: #fa6f2c !important;
+  font-weight: 700;
+}
 </style>
 </head>
 <body>
@@ -235,7 +241,7 @@ body {
   <div class="intro-card">
     <div class="intro-icon">🌿</div>
     <div>
-      <div class="intro-title">¡Hola! Ya falta poco para la aventura</div>
+      <div class="intro-title">¡Hola! Te dejamos algo de info para prepararte para la aventura</div>
       <div class="intro-text">En este documento encontrás respuesta a todo lo que solés querer saber antes del festejo. Guardalo o compartilo con quien necesites. Ante cualquier duda puntual, ya sabés dónde encontrarnos 🧡</div>
     </div>
   </div>
@@ -285,7 +291,7 @@ body {
       </label>
       <div class="acc-body">
         <p>Tenés dos opciones:</p>
-        <p>📅 <strong>El día anterior</strong> — cuando termina el último evento del día (te avisamos el horario exacto). Las bebidas llegan bien frías al festejo.</p>
+        <p>📅 <strong>El día anterior</strong> — cuando termina el último evento del día (te avisamos el horario exacto).</p>
         <p>⏱️ <strong>15 minutos antes del inicio</strong> — junto con la comida.</p>
         <div class="callout-green">🏷️ Rotulá cada pack con el <strong>nombre y horario de tu evento</strong> — no hace falta rotular botella por botella.</div>
         <p>También podés contratar el <strong>servicio de bebidas directamente con nosotros</strong> — consultanos disponibilidad y precios.</p>
@@ -312,8 +318,9 @@ body {
           <div class="deco-no">🚫 Serpentina</div>
           <div class="deco-no">🚫 Espuma</div>
           <div class="deco-no">🚫 Silbatos</div>
+          <div class="deco-no">🚫 Pintura</div>
         </div>
-        <p>Si traés <strong>piñata</strong>, avisarnos con anticipación y traer bolsitas para que los niños guarden lo que cae.</p>
+        <p>Si querés dedicar un momento a la <strong>piñata</strong>, avisanos previamente. Pueden traer las golosinas y premios que quieran incluir para ponerlos en nuestro arbusto, y contemplen bolsitas para que los niños puedan guardar lo que cae.</p>
       </div>
     </div>
 
@@ -355,12 +362,15 @@ body {
           Con cláusula de no repetición
         </div>
         <p>Una vez confirmada la cobertura, coordinamos el horario del show dentro del cronograma.</p>
+        <div class="callout-orange">📞 Quien realiza el show debe comunicarse al salón para coordinar el horario de inicio y contarnos de qué se trata.</div>
       </div>
     </div>
 
   </div>
 
   <p class="section-label">Adicionales que podés sumar</p>
+
+  <div class="callout-orange" style="margin-bottom:16px">💬 Estos son los adicionales que podés sumar a tu evento. Consultá los valores actualizados por WhatsApp al salón.</div>
 
   <div class="accordion">
 
@@ -373,10 +383,10 @@ body {
       </label>
       <div class="acc-body">
         <div class="precio-grid">
-          <div class="precio-item"><div class="precio-nombre">Show de magia</div><div class="precio-valor">$120.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Show de burbujas</div><div class="precio-valor">$113.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Magia + burbujas</div><div class="precio-valor">$138.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">+ Globología</div><div class="precio-valor">$40.000</div></div>
+          <div class="precio-item"><div class="precio-nombre">Show de magia</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Show de burbujas</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Magia + burbujas</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">+ Globología</div><div class="precio-valor consultar">A consultar</div></div>
         </div>
         <div class="tag-row">
           <span class="tag">Magia: ~30 min</span>
@@ -395,10 +405,10 @@ body {
       </label>
       <div class="acc-body">
         <div class="precio-grid">
-          <div class="precio-item"><div class="precio-nombre">Maquillaje artístico</div><div class="precio-valor">$83.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Maqui + glitter bar</div><div class="precio-valor">$92.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Maqui + brillos + tatuajes</div><div class="precio-valor">$110.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Maqui + brillos + pintapelos</div><div class="precio-valor">$115.000</div></div>
+          <div class="precio-item"><div class="precio-nombre">Maquillaje artístico</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Maqui + glitter bar</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Maqui + brillos + tatuajes</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Maqui + brillos + pintapelos</div><div class="precio-valor consultar">A consultar</div></div>
         </div>
         <p>1 diseño por niño, en rostro o brazo.</p>
         <div class="callout-orange">⚠️ Hasta 30 niños. No maquillamos menores de 2 años. Cancelaciones con al menos 10 días de anticipación.</div>
@@ -420,7 +430,7 @@ body {
         </div>
         <div class="precio-item" style="margin-top: 8px; max-width: 160px;">
           <div class="precio-nombre">Valor</div>
-          <div class="precio-valor">$95.000</div>
+          <div class="precio-valor consultar">A consultar</div>
         </div>
       </div>
     </div>
@@ -434,12 +444,12 @@ body {
       </label>
       <div class="acc-body">
         <div class="precio-grid">
-          <div class="precio-item"><div class="precio-nombre">Niño/a o adulto extra</div><div class="precio-valor">$5.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Coordinador/a o camarero/a extra</div><div class="precio-valor">$42.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Homenajeado/a extra</div><div class="precio-valor">$75.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Hora extra</div><div class="precio-valor">$120.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Pochoclos</div><div class="precio-valor">$155.000</div></div>
-          <div class="precio-item"><div class="precio-nombre">Bebida libre x adulto</div><div class="precio-valor">$4.500</div></div>
+          <div class="precio-item"><div class="precio-nombre">Niño/a o adulto extra</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Coordinador/a o camarero/a extra</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Homenajeado/a extra</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Hora extra</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Pochoclos</div><div class="precio-valor consultar">A consultar</div></div>
+          <div class="precio-item"><div class="precio-nombre">Bebida libre x adulto</div><div class="precio-valor consultar">A consultar</div></div>
         </div>
         <div class="callout-orange">Todos los valores están sujetos a modificación cercano a la fecha del festejo.</div>
       </div>
@@ -459,8 +469,9 @@ body {
       </label>
       <div class="acc-body">
         <p>Los precios del evento son <strong>promocionales en efectivo</strong>.</p>
-        <p>La seña se puede abonar por transferencia. El saldo restante se abona <strong>únicamente en efectivo</strong>, el día del evento o acercando pagos previos si lo preferís.</p>
+        <p>El saldo restante se abona <strong>únicamente en efectivo</strong>, el día del evento o acercando pagos previamente si lo preferís.</p>
         <div class="callout-orange">💳 Si preferís tarjeta de crédito o débito, lo procesamos vía Mercado Pago — tiene el recargo correspondiente a la plataforma.</div>
+        <div class="callout-orange">🏦 En caso de querer abonar el saldo por transferencia, también tiene su recargo. En ese caso, consultanos.</div>
       </div>
     </div>
   </div>
