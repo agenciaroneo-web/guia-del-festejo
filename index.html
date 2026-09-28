@@ -226,6 +226,20 @@ body {
   color: #fa6f2c !important;
   font-weight: 700;
 }
+
+.base-card {
+  background: #fff;
+  border: 1px solid #D3D1C7;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin: 8px 0;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.base-titulo { font-weight: 800; color: #006873; white-space: nowrap; font-size: 14px; }
+.base-detalle { font-size: 14px; line-height: 1.45; }
+.base-staff { font-size: 12.5px; color: #6f7772; }
 </style>
 </head>
 <body>
@@ -261,6 +275,34 @@ body {
         <p>Los <strong>invitados ingresan a la hora de inicio</strong> del evento.</p>
         <p>Si querés decorar el sector de la torta, pueden ingresar <strong>hasta 3 personas, 15 minutos antes</strong>. No es posible más personas antes del inicio para que el salón esté listo para recibirlos bien.</p>
         <div class="callout-green">💡 Recomendamos traer todo <strong>prearmado desde casa</strong> para aprovechar esos 15 minutos al máximo.</div>
+      </div>
+    </div>
+
+    <div class="acc-item">
+      <input type="checkbox" id="a-bases" class="acc-toggle">
+      <label for="a-bases" class="acc-label">
+        <span class="acc-emoji">👥</span>
+        <span class="acc-title">¿Cuántos invitados entran? Capacidad y bases</span>
+        <span class="acc-arrow">▼</span>
+      </label>
+      <div class="acc-body">
+        <div class="callout-orange">❗Capacidad máxima total: <strong>hasta 90 personas</strong>.</div>
+        <p>Te contamos las bases de nuestros presupuestos 🥳 <strong>Todos cuentan</strong> (homenajeados y padres):</p>
+        <div class="base-card">
+          <div class="base-titulo">🔸 Base 1</div>
+          <div class="base-detalle">Hasta 30 niños y hasta 20 adultos<br><span class="base-staff">Incluye 2 coordinadores + 1 personal de cocina</span></div>
+        </div>
+        <div class="base-card">
+          <div class="base-titulo">🔸 Base 2</div>
+          <div class="base-detalle">Hasta 15 niños y 35 adultos<br><span class="base-staff">Incluye 1 coordinador/a + 2 personal de cocina</span></div>
+        </div>
+        <div class="base-card">
+          <div class="base-titulo">🔸 Base 3</div>
+          <div class="base-detalle">Hasta 10 niños y 40 adultos<br><span class="base-staff">Solo aplica a Bautismos / Comunión / Evento de Adultos</span></div>
+        </div>
+        <div class="callout-green">👨‍🍳 Es <strong>1 coordinador/a cada 15 niños</strong> y <strong>1 camarero/a cada 20 adultos</strong>.</div>
+        <p>Según la cantidad de invitados que tengas, se elige la mejor base. Unos días antes del evento confirmamos las cantidades máximas. Si se superan sobre la base elegida, es necesario contratar staff extra y abonar un adicional por cada niño/a y/o adulto.</p>
+        <div class="callout-orange">✅ Si el día del evento se supera la base y no se contrató previamente el staff correspondiente, se abona igual al finalizar, ya que quien está en el puesto cobra por las posiciones a cubrir. ✨</div>
       </div>
     </div>
 
